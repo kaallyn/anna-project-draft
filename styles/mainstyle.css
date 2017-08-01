@@ -1,0 +1,110 @@
+
+/*    should i put my entire lauout in div ????   */
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 0 auto;
+
+}
+header, footer {
+		width: 100%;
+
+}
+
+.header-image {
+	background-image: url("../images/headimage.jpg");
+	background-size: cover;
+	height: 60%;
+	width: auto;
+	background-position: center;
+}
+
+/* designing second section using flexbox*/
+
+.container-flex {	
+	display: flex;
+	justify-position:center;
+	justify-content: space-between;
+	border: 3px solid red;
+	background-color: floralwhite;
+	height: 100%;
+	
+	
+}
+
+.flex-item {
+	display: flex;
+	margin:auto;
+	border: 1px solid blue;
+	width: 30%;
+}
+.flex-mount {
+	display: flex;
+	border: 1px solid blue;
+	margin-top: 150px;
+	width: 30%;
+}
+
+
+.little-mount {
+	height: 290px;
+	width: auto;
+	float: right;
+	margin-top: 210px;
+	opacity: 0.3;
+}
+
+.mount-image {
+	height: 230px;
+	width: auto;
+	border: 4px solid white;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.7), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    
+
+} /* adding the border inside slovenia mount ????? */ 
+
+
+
+}
+
+.third-section {
+	height: 500px;
+	background-image: url("../images/mountain_land.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+
+
+.footer-image {
+	background-image: url("../images/foot-image.png");
+	height: 60%;
+	width: auto;
+	background-position: center;
+	background-size: cover;
+}
+
+h2 {
+	text-align: center;
+}
+
+.m1 {
+	/*visibility: hidden;*/
+	
+}
+
+.m2 {
+
+}
+
+.m3 {
+	/*visibility: hidden;*/
+}
+
+.slideRight {
+	transform:translate(60%);
+}
